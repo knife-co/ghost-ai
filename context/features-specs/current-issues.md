@@ -1,1 +1,0 @@
-When I login I am directed to this url, http://localhost:3000/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2F and as you said I have to go to http://localhost:3000/editor to see my profile. 
