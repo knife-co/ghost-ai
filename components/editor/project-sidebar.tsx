@@ -15,8 +15,9 @@ export function ProjectSidebar({ isOpen, onClose }: ProjectSidebarProps) {
   return (
     <aside
       aria-hidden={!isOpen}
+      inert={!isOpen}
       className={cn(
-        "fixed top-3 bottom-3 left-3 z-40 flex w-72 flex-col overflow-hidden rounded-2xl border border-surface-border bg-surface/95 shadow-2xl backdrop-blur-sm transition-transform duration-200 ease-out",
+        "fixed top-15 bottom-3 left-3 z-40 flex w-72 flex-col overflow-hidden rounded-2xl border border-surface-border bg-surface/95 shadow-2xl backdrop-blur-sm transition-transform duration-200 ease-out",
         isOpen ? "translate-x-0" : "pointer-events-none -translate-x-[calc(100%+0.75rem)]"
       )}
     >
